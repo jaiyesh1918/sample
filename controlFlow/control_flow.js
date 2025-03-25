@@ -21,3 +21,6 @@ if (isLoggedIn) {
 } else {
     userMessage = "Please log in to access the system.";
 }console.log("User Message:", userMessage);
+let isAuthenticated = true;
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+console.log(authenticationStatus)
